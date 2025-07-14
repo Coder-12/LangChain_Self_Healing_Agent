@@ -1,0 +1,25 @@
+# Core
+python-dotenv~=1.1.0
+pandas~=2.2.3
+
+# LangChain + LLM
+langchain~=0.3.26
+langchain-community~=0.3.26
+openai
+
+# Vector Store (local testing)
+faiss-cpu
+
+# API Server
+fastapi~=0.115.14
+uvicorn
+
+# Logging, Testing, & Deployment
+tqdm
+pytest
+
+# Optional (for GCP / Jupyter Notebook on Vertex AI)
+google-cloud-storage
+ipykernel
+
+pydantic~=2.8.2
