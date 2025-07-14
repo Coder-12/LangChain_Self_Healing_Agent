@@ -1,0 +1,64 @@
+# Byte-compiled / optimized / C extensions
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Environment variables
+# This is the most important rule for your project to keep API keys secret!
+.env
+
+# Log files
+# --- NEW SECTION ---
+logs/
+log/
+*.log
+*.log.*
+# --- END OF NEW SECTION ---
+
+# IDE / Editor specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+logger.py
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Notebook Checkpoints
+.ipynb_checkpoints
+
+# Langchain Cache (optional but good practice)
+.langchain.db
